@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+    background-color: #323232;
+    font-family: sans-serif;
+}
+.top{
+    background-color: black;
+     color: white;
+    height: 5vh;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.back{
+    font-size: 24px;
+    background-color: white;
+    margin-left: 4%;
+    margin-right: 5%;
+    padding: 60px;
+    box-shadow: 10px 10px 10px 10px #000;
+    display: flex;
+  justify-content: center;
+  text-align: justify;
+  text-justify: inter-word;
+  position: relative;
+}
+.btn {
+    background-color: grey;
+    border-radius: 12px 15px;
+    padding: 8px;
+    color: white;}
+.side{
+    width:20px;
+    float: left;
+    margin-left: 2px;
+    margin-right: 20px;
+    line-height:32px;
+color: #ccc;
+} 

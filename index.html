@@ -1,0 +1,49 @@
+<html>
+    <head><title>Reader Accesss</title>
+        <link rel="stylesheet" href="style/form.css" type="text/css" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body>
+        <div class="flex-container">
+            <div class="content-container">
+              <div class="form-container">
+                <form action="reader.php" method="POST">
+                  <h1>
+                    Reader Access
+                  </h1>
+                  <br>
+                  <br>
+                  <span class="subtitle">Your email:</span>
+                  <br>
+                  <input type="text" name="username" value="" required>
+                  <br>
+                  <span class="subtitle">Access Code:</span>
+                  <br>
+                  <input type="text" id="acc" name="code" value="" required>
+                  <br><br>
+                  <input type="submit" value="SUBMIT" class="submit-btn">
+                </form>
+                <p class="subtitle">
+                  Dont have a code? generate <a href="generate.html"> here </a>                                </p>
+              </div>
+              
+            </div>
+          </div>
+    </body>
+    <script>/*
+    function makeid(length) {
+      var result           = '';
+      var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+      var charactersLength = characters.length;
+      for ( var i = 0; i < length; i++ ) {
+         result += characters.charAt(Math.floor(Math.random() * charactersLength));
+      }
+      return result;
+
+   }
+   
+      document.getElementById("acc").value = makeid(16);
+      */
+   </script>
+</html>
